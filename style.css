@@ -1,0 +1,170 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url(https://r4.wallpaperflare.com/wallpaper/142/751/831/landscape-anime-digital-art-fantasy-art-wallpaper-9b468c3dc3116f4905f43bc9cddc0cf0.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#contenedor{
+	width:950px;
+	margin: auto;
+}
+
+h2{
+	color: rgb(208, 121, 46);
+	font-family: fantasy;
+	font-size: 50px;
+}
+
+
+main{
+	width: 100%;
+	height: 100px;
+}
+
+main h1{
+	text-align: center;
+	color:#16379b;
+	padding-top: 25px;
+	font-family: fantasy;
+	font-size: 45px;
+}
+
+
+header nav{
+	text-align: center;
+	background-color:rgba(0,0,0,0.5);
+	border-radius: 30px 30px;
+}
+header nav ul li{
+	display: inline-block;
+	padding: 19px;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: fantasy;
+	font-size:25px ;
+	transition: color o.3 ease;
+}
+header nav ul li a:hover{
+	color: #16379b;
+	transition:cubic-bezier(0.5)
+}
+
+section{
+	width: 100%;
+	height: 290px;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
+	border: 4px solid #000000;
+	box-shadow: 9px 9px 9px #000000;	
+}
+section a{
+	text-decoration: none;
+	color: black;
+	font-family: fantasy;
+	font-size:25px ;
+	background-color:#16379b;
+	text-align: center;
+	padding: 5px;
+	border-radius: 10px 10px;
+}
+
+.Articulos{
+	padding-top: 20px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.Articulos p{
+	font-family: fantasy;
+	font-size: 40px;
+	margin-bottom: 40px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.Articulos a:hover{
+	color: #fff;
+	background-color: #000000;
+	border-radius: 30px;
+}
+
+.Menbresia{
+	padding-top: 20px;
+	color:#fff;
+	text-transform: uppercases;
+	
+
+}
+.Menbresia img{
+	float: right;
+	margin-right: 50px;
+
+}
+
+.Menbresia a{
+
+	padding: 5px;
+}
+
+.Menbresia a:hover{
+	color: #fff;
+	background-color: #000000;
+	border-radius: 30px;
+}
+
+.Menbresia p{
+	text-transform:uppercase ;
+	text-align: center;
+	font-family: fantasy;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+
+.Nosotros{
+	padding-top: 20px;
+	width: 100%;
+	height: 290px;
+}
+
+.Nosotros p{
+	font-family: fantasy;
+	font-size: 40px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	color: #fff;
+}
+
+footer{
+	width: 100%;
+	height: 140px;
+	color: #fff;
+}
+
+
+footer ul li{
+	display: inline-flex;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color: #16379b;
+	margin: 15px;
+	font-family: fantasy;
+	font-size: 25px;
+}
+
+footer ul li a:hover{
+	color: #000000;
+	background-color: #fff;
+	padding: 9px;
+	border-radius: 30%;
+
+}
